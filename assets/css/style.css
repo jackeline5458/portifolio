@@ -813,4 +813,53 @@ footer {
     .success-content .botao {
         width: 100%;
     }
+
+    
+}
+
+.project-card {
+    background: linear-gradient(
+        180deg,
+        rgba(207, 250, 254, 0.25),
+        rgba(219, 234, 254, 0.25),
+        rgba(233, 213, 255, 0.25)
+    );
+    border: 1px solid rgba(168, 85, 247, 0.18);
+}
+
+.project-image {
+    background: linear-gradient(
+        135deg,
+        rgba(207, 250, 254, 0.7),
+        rgba(219, 234, 254, 0.7),
+        rgba(233, 213, 255, 0.7)
+    );
+}
+
+.project-content {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    border: 1px solid var(--accent-300);
+    box-shadow: 0 10px 28px rgba(168, 85, 247, 0.22);
+}
+
+.project-card:hover .project-image {
+    background: linear-gradient(
+        135deg,
+        var(--primary-100),
+        var(--secondary-100),
+        var(--accent-100)
+    );
+}
+
+.project-card:hover .project-content {
+    background: linear-gradient(
+        135deg,
+        rgba(207, 250, 254, 0.35),
+        rgba(219, 234, 254, 0.35),
+        rgba(233, 213, 255, 0.35)
+    );
 }

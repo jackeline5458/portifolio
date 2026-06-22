@@ -79,159 +79,97 @@
             </figure>
         </section>
 
-        <section id="about" class="section-container about-container">
-            <figure class="about-image">
-                <img src="assets/img/fotodev.jpg" alt="Foto de Jackeline">
-            </figure>
+        <<section id="about" class="section-container about-container">
 
-            <article class="about-content">
-                <h2>Sobre mim</h2>
+            </section>
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
 
-                <div class="about-buttons-data">
-                    <div class="buttons-container">
-                        <a href="#" target="_blank" class="botao">GitHub</a>
+            <!-- Seção Projects -->
+            <section id="projects" class="section-container projects-container">
 
-                        <a href="https://docs.google.com/document/d/15XJfJDnH5DK8Jt36QA4TYG4W5u7nFLm6/edit?usp=sharing&ouid=114513212974353377610&rtpof=true&sd=true"
-                            target="_blank" class="botao-outline">
-                            Currículo
+                <h2>Projetos</h2>
+
+                <div class="swiper projects-swiper">
+                    <div class="swiper-wrapper">
+
+                    </div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </section>
+
+            <section id="contact" class="section-container contact-container">
+
+                <!-- Informações de Contato -->
+                <article class="contact-info">
+
+                    <h2>Entre em Contato</h2>
+
+                    <p>
+                        Sinta-se à vontade para entrar em contato comigo!
+                    </p>
+
+                    <!-- Redes Sociais -->
+                    <div class="social-container">
+
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="./assets/icons/social/linkedin.svg" alt="LinkedIn">
                         </a>
-                    </div>
-                </div>
 
-                <h3>GitHub</h3>
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="./assets/icons/social/github.svg" alt="GitHub">
+                        </a>
 
-                <p>Informações do perfil serão carregadas aqui.</p>
-            </article>
-        </section>
-
-        <!-- Seção Projetos do autor -->
-        <section id="projects" class="section-container projects-container">
-            <h2>Meus Projetos</h2>
-
-            <!-- Swiper Container -->
-            <div class="swiper projects-swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-
-                        <article class="project-card">
-                            <figure class="project-image">
-                                <img src="./assets/icons/languages/github.svg" alt="Ícone GitHub">
-                            </figure>
-
-                            <div class="project-content">
-                                <h3>Projeto Github</h3>
-                                <p>Projeto Desenvolvido no GitHub</p>
-
-                                <div class="project-tags">
-                                    <span class="tag">GitHub</span>
-                                </div>
-
-                                <div class="project-buttons">
-                                    <a href="#" target="_blank" class="botao botao-sm">
-                                        GitHub
-                                    </a>
-
-                                    <a href="#" target="_blank" class="botao-outline botao-sm">
-                                        Deploy
-                                    </a>
-                                </div>
-                            </div>
-
-                        </article>
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="./assets/icons/social/instagram.svg" alt="Instagram">
+                        </a>
 
                     </div>
-                </div>
-            </div>
 
-            <!-- Botões de navegação -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+                </article>
 
-            <!-- Paginação -->
-            <div class="swiper-pagination"></div>
+                <!-- Formulário -->
+                <form id="formulario" action="https://formsubmit.co/168cbedd7eb16f38c3b2c03da003a63b" method="POST">
+                    <input type="hidden" name="_next" value="http://localhost:5500/success.html">
+                    <input type="hidden" name="_captcha" value="false">
 
-        </section>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Digite o seu nome completo">
+                    <span id="name-error"></span>
 
-        <section id="contact" class="section-container contact-container">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite o seu e-mail">
+                    <span id="email-error"></span>
 
-    <!-- Informações de Contato -->
-    <article class="contact-info">
+                    <label for="subject">Assunto</label>
+                    <input type="text" id="subject" name="subject" placeholder="Digite o assunto da mensagem">
+                    <span id="subject-error"></span>
 
-        <h2>Entre em Contato</h2>
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" placeholder="Escreva a sua mensagem aqui..."></textarea>
+                    <span id="message-error"></span>
 
-        <p>
-            Sinta-se à vontade para entrar em contato comigo!
-        </p>
+                    <button type="submit" class="botao">
+                        Enviar Mensagem
+                    </button>
 
-        <!-- Redes Sociais -->
-        <div class="social-container">
-
-            <a href="#" target="_blank" class="social-icon">
-                <img src="./assets/icons/social/linkedin.svg" alt="LinkedIn">
-            </a>
-
-            <a href="#" target="_blank" class="social-icon">
-                <img src="./assets/icons/social/github.svg" alt="GitHub">
-            </a>
-
-            <a href="#" target="_blank" class="social-icon">
-                <img src="./assets/icons/social/instagram.svg" alt="Instagram">
-            </a>
-
-        </div>
-
-    </article>
-
-    <!-- Formulário -->
-    <form>
-
-        <label for="name">Nome</label>
-        <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Digite o seu nome completo">
-
-        <label for="email">E-mail</label>
-        <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Digite o seu e-mail">
-
-        <label for="subject">Assunto</label>
-        <input
-            type="text"
-            id="subject"
-            name="subject"
-            placeholder="Digite o assunto da mensagem">
-
-        <label for="message">Mensagem</label>
-        <textarea
-            id="message"
-            name="message"
-            placeholder="Escreva a sua mensagem aqui..."></textarea>
-
-        <button type="submit" class="botao">
-            Enviar Mensagem
-        </button>
-
-    </form>
-
-</section>
+                </form>
+            </section>
     </main>
 
     <footer>
         <p>Desenvolvido por Generation Brasil - 2025</p>
     </footer>
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Script JavaScript-->
+    <script src="assets/js/script.js"></script>
 
 </body>
 
